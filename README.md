@@ -9,6 +9,8 @@ For each correction performed, Protictor produces a new updated model, named <fi
 The last file in this sequence is the complete, corrected model.
 Protictor also stores the SPIN trail produced at each step, named <filename>\_<versionNumber>.pml.trail. (This file is relevant only for users familiar with SPIN, and is included as an interesting addition for them to play around with.)
 
+Example:
+./protictor deadlock.pml
 
 Note:
 In the PROMELA file, each statement must be on a separate line
