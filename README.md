@@ -20,7 +20,13 @@ All models tested, along with their results, are available on the repository htt
 ## Note:  
 In the PROMELA file, each statement must be on a separate line  
 There must be no active processes (init must run all starting proceses)  
-This version does not support inline and #define.    
+This version does not support inline and #define.  
+
+## System Information
+This project has been buil/tested on:  
+OS: Ubuntu 18.04, 16.04  
+RAM: 4GB - 10GB  
+CPU: Intel i3 quadcore, intel i5 octacore
   
 _The version of SPIN included in this package is a customized one, with a few bugs fixed and a few changes made to accomodate tool-to-tool interfacing with Protictor._
 
