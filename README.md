@@ -1,5 +1,5 @@
 # Protictor
-An automatic corrector or PROMELA models
+An automatic corrector for PROMELA models
 
 Performs corrections iteratively on the model <filename>.pml, attacking one error at a time.
 
@@ -20,8 +20,7 @@ All models tested, along with their results, are available on the repository htt
 ## Note:  
 In the PROMELA file, each statement must be on a separate line  
 There must be no active processes (init must run all starting proceses)  
-This version does not support inline and #define.  
-  
+This version does not support inline and #define.    
   
 _The version of SPIN included in this package is a customized one, with a few bugs fixed and a few changes made to accomodate tool-to-tool interfacing with Protictor._
 
