@@ -7,10 +7,10 @@ Performs corrections iteratively on the model <filename>.pml, attacking one erro
 
 For each correction performed, Protictor produces a new updated model, named \<filename\>\_\<versionNumber\>.pml
 The last file in this sequence is the complete, corrected model.
-Protictor also stores the SPIN trail produced at each step, named <filename>\_<versionNumber>.pml.trail. (This file is relevant only for users familiar with SPIN, and is included as an interesting addition for them to play around with.)
+Protictor also stores the SPIN trail produced at each step, named \<filename\>\_\<versionNumber\>.pml.trail. (This file is relevant only for users familiar with SPIN, and is included as an interesting addition for them to play around with.)
 
-Example:
-./protictor deadlock.pml
+Example: 
+_./protictor deadlock.pml_
 
 Note:
 In the PROMELA file, each statement must be on a separate line
