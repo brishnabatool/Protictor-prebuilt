@@ -24,9 +24,9 @@ This version does not support inline and #define.
 
 ## System Information
 This project has been buil/tested on:  
-OS: Ubuntu 18.04, 16.04  
+OS: Ubuntu  16.04, 18.04
 RAM: 4GB - 10GB  
-CPU: Intel i3 quadcore, intel i5 octacore
+CPU: Intel i3 quadcore, Intel i5 octacore
   
 _The version of SPIN included in this package is a customized one, with a few bugs fixed and a few changes made to accomodate tool-to-tool interfacing with Protictor._
 
